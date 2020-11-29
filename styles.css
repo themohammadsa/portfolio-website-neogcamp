@@ -1,13 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;900&display=swap');
 
 :root {
     --primary-color: #1E40AF;
     --light-white: #F3F4F6;
+    --font-color: #1E3A8A;
+    --light-blue: #1D4ED8;
+    --bg-blue: #EFF6FF;
+    --bg-blue2: #BFDBFE;
     /* --bg-color: #FDF2F8; */
 }
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    color: var(--font-color);
     /* background-color: var(--bg-color); */
 }
 
@@ -18,29 +23,51 @@ hr {
 .container {
     padding: 1rem 1rem;
 }
+.container1 {
+    padding top: 0.5rem;
+    
+}
 
 .container-center {
-    max-width: 600px;
+    max-width: 700px;
     margin: auto;
+   
 }
+
+.container-center1 {
+    max-width: 800px;
+    margin: auto;
+   
+}
+
 
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
-    
+
+}
+
+.text-center{
+    text-align: center;
 }
 
 .link-primary {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
+    padding: 0.5rem 2.5rem;
+    margin-inline-start: 8.1rem;
+
 }
+
+
 
 .link-secondary {
     color: var(--primary-color);
-    border-radius: 0.5rem;
+    border-radius: 0.5rem; 
     border: 1px solid var(--primary-color);
-
+    padding: 0.3rem 2.5rem;
+    margin-inline-start: 19.55rem;
 }
 
 .list-non-bullet {
@@ -49,19 +76,27 @@ hr {
 
 .list-inline {
     display: inline;
-    padding: 0rem 0.5rem;
+    padding: 0rem 1rem;
+}
+
+.padding{
+    padding-bottom: 1.5rem;
 }
 
 .navigation {
     background-color: var(--primary-color);
     color: white;
-    padding: 1rem;
-    border-bottom-left-radius: 1rem;
+    padding-top: 2rem;
+    padding-right: 4rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    font-size: 1.2rem;
+    
 }
 
 .navigation .nav-brand {
     font-weight: bold;
-    font-size: 1.1rem;
+    
 }
 
 .navigation .nav-pills {
@@ -74,7 +109,7 @@ hr {
 
 .navigation .link-active {
     font-weight: bold;
-    font-size: 1rem;
+    /* font-size: 1.4rem; */
 }
 
 
@@ -90,34 +125,48 @@ hr {
 }
 
 .hero .hero-heading {
-    padding-top: 1rem;
-    color: var(--primary-color);
+    /* padding-top: 1rem; */
     text-align: center;
+  
 }
 
 .hero .heading-inverted {
-    color: red;
-    /** give the color in root and then edit it by using var later on **/
+    color: var(--light-blue);
+    
 }
 
 .section{
-    padding: 2rem;
+    padding: 1rem;
+    border-radius: 3rem;
 }
 
 .section h1 {
     text-align:center;
 }
 
+.logo{
+    max-width: 70px;
+    max-height: 70px;
+    padding: 1rem;
+}
+
+.logo1{
+    max-width: 100px;
+    max-height: 100px;
+    margin-bottom: 2.5rem;
+}
 .ow{
-    background-color: var(--light-white);
+        background-color: var(--bg-blue);
+        
+
 }
 
 .footer{
     background-color: var(--primary-color);
-    padding: 2rem 1rem;
+    padding-top: 2rem;
+    padding-bottom: 0.05rem;
     text-align: center;
     color: white;
-    border-top-right-radius: 1rem;
 }
 
 .footer .link{
@@ -131,4 +180,9 @@ hr {
 .footer .footer-header{
     font-weight: bold;
     font-size: large;
+}
+
+.footer-logo{
+    max-width: 2.5rem;
+    max-height: 2.5rem;
 }
