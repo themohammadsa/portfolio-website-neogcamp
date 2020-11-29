@@ -28,6 +28,12 @@ hr {
     
 }
 
+.container-center2{
+    max-width: 750px;
+    margin: auto;
+   
+}
+
 .container-center {
     max-width: 700px;
     margin: auto;
@@ -67,6 +73,19 @@ hr {
 
 }
 
+.link-primary2 {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+    padding: 0.5rem 2.5rem;
+}
+
+.link-secondary2 {
+    color: var(--primary-color);
+    border-radius: 0.5rem; 
+    border: 1px solid var(--primary-color);
+    padding: 0.3rem 2.5rem;
+}
 
 
 .link-secondary {
@@ -83,7 +102,7 @@ hr {
 
 .list-inline {
     display: inline;
-    padding: 0rem 1rem;
+    padding: 0rem 0.1rem;
 }
 
 .padding{
