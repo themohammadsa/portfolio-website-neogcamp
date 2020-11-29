@@ -105,8 +105,13 @@ hr {
     padding: 0rem 0.1rem;
 }
 
-.padding{
+.padding1{
     padding-bottom: 1.5rem;
+}
+.padding2{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding:2rem 0rem;
 }
 
 .navigation {
@@ -138,10 +143,16 @@ hr {
     /* font-size: 1.4rem; */
 }
 
+.header-svg{
+    max-width: 350px;
+    padding: 3rem 0rem;
+    margin: auto;
+ 
+    display: block;
+}
 
 .hero{
-    padding: 2rem;
-    padding-top: 5rem;
+    padding-top: 0.5rem;
 }
 
 .hero .hero-img {
