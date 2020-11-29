@@ -40,6 +40,13 @@ hr {
    
 }
 
+.container-insta{
+    max-width: 500px;
+    margin: auto;
+    padding-top: 2rem;
+
+}
+
 
 .link {
     text-decoration: none;
