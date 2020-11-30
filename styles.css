@@ -7,7 +7,8 @@
     --light-blue: #1D4ED8;
     --bg-blue: #EFF6FF;
     --bg-blue2: #BFDBFE;
-    /* --bg-color: #FDF2F8; */
+    --blue400: #60A5FA;
+    --blue300: #BFDBFE;
 }
 
 body {
@@ -68,9 +69,13 @@ hr {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
+    display: inline-block;
     padding: 0.5rem 2.5rem;
     margin-inline-start: 8.1rem;
-
+    transition: background-color 0.25s ease-in; 
+}
+.link-primary:hover{
+    background-color: var(--blue400);
 }
 
 .link-primary2 {
@@ -78,6 +83,11 @@ hr {
     border-radius: 0.5rem;
     color: white;
     padding: 0.6rem 2.5rem;
+    transition: background-color 0.25s ease-in;
+}
+
+.link-primary2:hover{
+    background-color: var(--blue400);
 }
 
 .link-secondary2 {
@@ -85,8 +95,12 @@ hr {
     border-radius: 0.5rem; 
     border: 1px solid var(--primary-color);
     padding: 0.5rem 2.5rem;
+    transition: background-color 0.25s ease-in;
 }
 
+.link-secondary2:hover{
+    background-color: var(--blue300);
+}
 
 .link-secondary {
     color: var(--primary-color);
@@ -94,6 +108,11 @@ hr {
     border: 1px solid var(--primary-color);
     padding: 0.3rem 2.5rem;
     margin-inline-start: 19.55rem;
+    transition: background-color 0.25s ease-in;
+}
+
+.link-secondary:hover{
+    background-color: var(--blue300);
 }
 
 .list-non-bullet {
