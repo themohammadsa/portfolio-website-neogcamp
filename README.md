@@ -10,7 +10,7 @@ https://mohammadsa.netlify.app/
 
 # Screeshot 
 
-![Screenshot](/images/website.png)
+![website-screenshot](/images/website.png)
 
 ---
 
