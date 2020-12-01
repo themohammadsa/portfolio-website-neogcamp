@@ -8,15 +8,12 @@ https://mohammadsa.netlify.app/
 
 ---
 
-# Screeshot 
+# Preview 
 
 ![website-screenshot](/images/website.png)
 
 ---
 
-
-
-****
 # Built with:
 
 1. CSS 
