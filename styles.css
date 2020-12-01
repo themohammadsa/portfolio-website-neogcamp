@@ -70,11 +70,20 @@ hr {
 
 }
 
+.link-footer{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
 
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
+    transition: background-color 0.25s ease-in;
+    border-radius: 10rem;
+}
 
+.link:hover {
+    background-color: var(--light-blue);
 }
 
 .link-blogs{
@@ -187,7 +196,7 @@ hr {
 
 .navigation .link-active {
     font-weight: bold;
-    /* font-size: 1.4rem; */
+    
 }
 
 .header-svg{
