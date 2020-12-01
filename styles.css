@@ -24,21 +24,22 @@ hr {
 .container {
     padding: 1rem 1rem;
 }
+
 .container1 {
     padding top: 0.5rem;
-    
+
 }
 
-.container-center2{
+.container-center2 {
     max-width: 750px;
     margin: auto;
-   
+
 }
 
 .container-center {
     max-width: 700px;
     margin: auto;
-   
+
 }
 
 .container-youtube {
@@ -53,24 +54,24 @@ hr {
 .container-center-blogs {
     max-width: 1000px;
     margin: auto;
-    
+
 }
 
 
 .container-center1 {
     max-width: 800px;
     margin: auto;
-   
+
 }
 
-.container-insta{
+.container-insta {
     max-width: 500px;
     margin: auto;
     padding-top: 2rem;
 
 }
 
-.link-footer{
+.link-footer {
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
@@ -86,11 +87,11 @@ hr {
     background-color: var(--light-blue);
 }
 
-.link-blogs{
+.link-blogs {
     text-decoration: none;
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
@@ -101,9 +102,10 @@ hr {
     display: inline-block;
     padding: 0.5rem 2.5rem;
     margin-inline-start: 8.1rem;
-    transition: background-color 0.25s ease-in; 
+    transition: background-color 0.25s ease-in;
 }
-.link-primary:hover{
+
+.link-primary:hover {
     background-color: var(--blue400);
 }
 
@@ -115,33 +117,34 @@ hr {
     transition: background-color 0.25s ease-in;
 }
 
-.link-primary2:hover{
+.link-primary2:hover {
     background-color: var(--blue400);
 }
 
 .link-secondary-blogs {
     color: var(--primary-color);
-    border-radius: 0.5rem; 
+    border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
     padding: 0.5rem 2.5rem;
     transition: background-color 0.25s ease-in;
-    
+
 }
 
-.link-secondary-blogs:hover{
+.link-secondary-blogs:hover {
     background-color: var(--blue300);
 }
 
 .link-secondary {
     color: var(--primary-color);
-    border-radius: 0.5rem; 
+    border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
     padding: 0.3rem 2.5rem;
+
     margin-inline-start: 19.75rem;
     transition: background-color 0.25s ease-in;
 }
 
-.link-secondary:hover{
+.link-secondary:hover {
     background-color: var(--blue300);
 }
 
@@ -154,16 +157,17 @@ hr {
     padding: 0rem 0.1rem;
 }
 
-.padding1{
+.padding1 {
     padding-bottom: 1.5rem;
 }
-.padding2{
+
+.padding2 {
     margin-top: 2rem;
     margin-bottom: 2rem;
-    padding:2rem 0rem;
+    padding: 2rem 0rem;
 }
 
-.padding-blogs{
+.padding-blogs {
     padding: 0rem 1.75rem;
 }
 
@@ -178,12 +182,12 @@ hr {
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
     font-size: 1.2rem;
-    
+
 }
 
 .navigation .nav-brand {
     font-weight: bold;
-    
+
 }
 
 .navigation .nav-pills {
@@ -196,18 +200,18 @@ hr {
 
 .navigation .link-active {
     font-weight: bold;
-    
+
 }
 
-.header-svg{
+.header-svg {
     max-width: 350px;
     padding: 3rem 0rem;
     margin: auto;
- 
+
     display: block;
 }
 
-.hero{
+.hero {
     padding-top: 0.5rem;
 }
 
@@ -220,41 +224,42 @@ hr {
 .hero .hero-heading {
     /* padding-top: 1rem; */
     text-align: center;
-  
+
 }
 
 .hero .heading-inverted {
     color: var(--light-blue);
-    
+
 }
 
-.section{
+.section {
     padding: 1rem;
     border-radius: 3rem;
 }
 
 .section h1 {
-    text-align:center;
+    text-align: center;
 }
 
-.logo{
+.logo {
     max-width: 70px;
     max-height: 70px;
     padding: 1rem;
 }
 
-.logo1{
+.logo1 {
     max-width: 100px;
     max-height: 100px;
     margin-bottom: 2.5rem;
 }
-.ow{
-        background-color: var(--bg-blue);
-        
+
+.ow {
+    background-color: var(--bg-blue);
+
 
 }
 
-.footer{
+.footer {
     background-color: var(--primary-color);
     padding-top: 2rem;
     padding-bottom: 0.05rem;
@@ -262,20 +267,20 @@ hr {
     color: white;
 }
 
-.footer .link{
+.footer .link {
     color: white;
 }
 
-.footer ul{
+.footer ul {
     padding-inline-start: 0px;
 }
 
-.footer .footer-header{
+.footer .footer-header {
     font-weight: bold;
     font-size: large;
 }
 
-.footer-logo{
+.footer-logo {
     max-width: 2.5rem;
     max-height: 2.5rem;
 }
