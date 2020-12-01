@@ -3,6 +3,19 @@ This is the first ever website, I have created.
 
 This is a portfolio website which explains a brief intro about myself.
 
+Here's the link to website:
+https://mohammadsa.netlify.app/
+
+---
+
+# Screeshot 
+
+![Screenshot](/images/website.png)
+
+---
+
+
+
 ****
 # Built with:
 
@@ -10,4 +23,3 @@ This is a portfolio website which explains a brief intro about myself.
 2. HTML
 
 ****
-# Screeshot 
