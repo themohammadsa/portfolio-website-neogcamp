@@ -41,6 +41,22 @@ hr {
    
 }
 
+.container-youtube {
+    max-width: 700px;
+    margin: auto;
+    display: block;
+    border: 5px solid var(--primary-color);
+    border-radius: 1rem;
+}
+
+
+.container-center-blogs {
+    max-width: 1000px;
+    margin: auto;
+    
+}
+
+
 .container-center1 {
     max-width: 800px;
     margin: auto;
@@ -59,6 +75,10 @@ hr {
     text-decoration: none;
     padding: 0.5rem 1rem;
 
+}
+
+.link-blogs{
+    text-decoration: none;
 }
 
 .text-center{
@@ -90,15 +110,16 @@ hr {
     background-color: var(--blue400);
 }
 
-.link-secondary2 {
+.link-secondary-blogs {
     color: var(--primary-color);
     border-radius: 0.5rem; 
     border: 1px solid var(--primary-color);
     padding: 0.5rem 2.5rem;
     transition: background-color 0.25s ease-in;
+    
 }
 
-.link-secondary2:hover{
+.link-secondary-blogs:hover{
     background-color: var(--blue300);
 }
 
@@ -107,7 +128,7 @@ hr {
     border-radius: 0.5rem; 
     border: 1px solid var(--primary-color);
     padding: 0.3rem 2.5rem;
-    margin-inline-start: 19.55rem;
+    margin-inline-start: 19.75rem;
     transition: background-color 0.25s ease-in;
 }
 
@@ -132,6 +153,13 @@ hr {
     margin-bottom: 2rem;
     padding:2rem 0rem;
 }
+
+.padding-blogs{
+    padding: 0rem 1.75rem;
+}
+
+
+
 
 .navigation {
     background-color: var(--primary-color);
