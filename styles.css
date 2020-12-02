@@ -40,10 +40,12 @@ hr {
 }
 
 .container-center {
-    max-width: 700px;
+    max-width: 750px;
     margin: auto;
 
 }
+
+
 
 .container-youtube {
     max-width: 700px;
@@ -65,6 +67,14 @@ hr {
     max-width: 800px;
     margin: auto;
 
+}
+
+
+.container-center2 {
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
 }
 
 .container-insta {
@@ -98,13 +108,22 @@ hr {
     text-align: center;
 }
 
+.container-center3{
+    max-width: 750px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* https://www.w3schools.com/css/css3_flexbox_container.asp */
+}
+
 .link-primary {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
     display: inline-block;
     padding: 0.5rem 2.5rem;
-    margin-inline-start: 8.1rem;
+    margin: 0rem 6rem;
+    /* margin-inline-start: 8.1rem; */
     transition: background-color 0.25s ease-in;
 }
 
@@ -142,8 +161,10 @@ hr {
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
     padding: 0.3rem 2.5rem;
-
-    margin-inline-start: 19.75rem;
+    
+    /* max-width: 10px;
+    margin: auto; */
+    /* margin-inline-start: 19.75rem; */
     transition: background-color 0.25s ease-in;
 }
 
