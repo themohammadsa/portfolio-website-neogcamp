@@ -11,13 +11,15 @@
     --blue300: #BFDBFE;
 }
 
-.box{
-    margin: 0 auto;
-}
+
 body {
     font-family: 'Roboto Slab', serif;
     color: var(--font-color);
     margin: 0rem;
+}
+
+.box{
+    margin: 0 2rem;
 }
 
 hr {
@@ -114,7 +116,7 @@ hr {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* https://www.w3schools.com/css/css3_flexbox_container.asp */
+    
 }
 
 .link-primary {
@@ -160,10 +162,6 @@ hr {
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
     padding: 0.3rem 2.5rem;
-    
-    /* max-width: 10px;
-    margin: auto; */
-    /* margin-inline-start: 19.75rem; */
     transition: background-color 0.25s ease-in;
 }
 
@@ -214,8 +212,11 @@ hr {
 }
 
 .navigation .nav-pills {
-    text-align: right;
-}
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: auto;
+} 
 
 .navigation .link {
     color: white;
