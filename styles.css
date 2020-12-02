@@ -11,6 +11,9 @@
     --blue300: #BFDBFE;
 }
 
+.box{
+    margin: 0 auto;
+}
 body {
     font-family: 'Roboto Slab', serif;
     color: var(--font-color);
