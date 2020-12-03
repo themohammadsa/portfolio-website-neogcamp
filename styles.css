@@ -104,8 +104,10 @@ hr {
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
-    transition: background-color 0.25s ease-in;
     border-radius: 10rem;
+    transition-property: background-color;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in;
 }
 
 .link:hover {
@@ -135,7 +137,9 @@ hr {
     color: white;
     display: inline-block;
     padding: 0.5rem 2.5rem;
-    transition: background-color 0.25s ease-in;
+    transition-property: background-color;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in;
 }
 
 .link-primary:hover {
@@ -147,7 +151,10 @@ hr {
     border-radius: 0.5rem;
     color: white;
     padding: 0.6rem 2.5rem;
-    transition: background-color 0.25s ease-in;
+    transition-property: background-color;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in;
+    
 }
 
 .link-primary2:hover {
@@ -172,7 +179,10 @@ hr {
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
     padding: 0.3rem 2.5rem;
-    transition: background-color 0.25s ease-in;
+    transition-property: background-color;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in;
+   
 }
 
 .link-secondary:hover {
@@ -253,7 +263,6 @@ hr {
 }
 
 .hero .hero-heading {
-    /* padding-top: 1rem; */
     text-align: center;
 
 }
