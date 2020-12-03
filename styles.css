@@ -65,9 +65,15 @@ hr {
 .container-center-blogs {
     max-width: 1000px;
     margin: auto;
-
+    
 }
 
+.container-center-blogs-image {
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+    
+}
 
 .container-center1 {
     max-width: 800px;
