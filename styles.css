@@ -19,7 +19,7 @@ body {
 }
 
 .box{
-    margin: 0 2rem;
+    margin: 0% 3%;
 }
 
 hr {
@@ -54,16 +54,16 @@ hr {
 
 
 .container-youtube {
-    max-width: 700px;
+    max-width: 100%;
     margin: auto;
     display: block;
-    border: 5px solid var(--primary-color);
-    border-radius: 1rem;
+    border: 2.5px solid var(--primary-color);
+    /* border-radius: 1rem; */
 }
 
 
 .container-center-blogs {
-    max-width: 1000px;
+    max-width: 70%;
     margin: auto;
     
 }
@@ -209,7 +209,7 @@ hr {
 }
 
 .padding-blogs {
-    padding: 0rem 1.75rem;
+    padding: 0% 2%;
 }
 
 
@@ -275,7 +275,14 @@ hr {
 .section {
     padding: 1rem;
     border-radius: 3rem;
+    margin: 0% 1%;
 }
+
+.section-blogs {
+    padding: 1rem;
+    border-radius: 3rem;
+}
+
 
 .section h1 {
     text-align: center;
@@ -295,8 +302,11 @@ hr {
 
 .ow {
     background-color: var(--bg-blue);
+}
 
-
+.ow2 {
+    background-color: var(--bg-blue);
+    margin-bottom: 1.5%;
 }
 
 .footer {
