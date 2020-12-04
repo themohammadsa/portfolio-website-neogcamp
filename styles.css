@@ -69,7 +69,7 @@ hr {
 }
 
 .container-center-blogs-image {
-    max-width: 900px;
+    max-width: 100%;
     margin: auto;
     text-align: center;
     
