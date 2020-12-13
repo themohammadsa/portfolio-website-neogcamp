@@ -140,6 +140,7 @@ hr {
     transition-property: background-color;
     transition-duration: 0.25s;
     transition-timing-function: ease-in;
+    box-shadow: 2px 2px 3px #BFDBFE, -2px -2px 3px #BFDBFE;
 }
 
 .link-primary:hover {
@@ -154,6 +155,8 @@ hr {
     transition-property: background-color;
     transition-duration: 0.25s;
     transition-timing-function: ease-in;
+    margin-right: 1rem;
+    box-shadow: 3px 3px 3px #BFDBFE;
     
 }
 
@@ -167,6 +170,7 @@ hr {
     border: 1px solid var(--primary-color);
     padding: 0.5rem 2.5rem;
     transition: background-color 0.25s ease-in;
+    box-shadow: 2px 2px 3px #BFDBFE, -2px -5px 3px #EFF6FF;
 
 }
 
@@ -182,7 +186,7 @@ hr {
     transition-property: background-color;
     transition-duration: 0.25s;
     transition-timing-function: ease-in;
-   
+    box-shadow: 2px 2px 3px #BFDBFE, -2px -5px 3px #EFF6FF;
 }
 
 .link-secondary:hover {
@@ -221,6 +225,7 @@ hr {
     padding-top: 2rem;
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
+    box-shadow: 3px 3px 5px #BFDBFE;
 }
 
 .navigation .nav-brand {
@@ -302,11 +307,13 @@ hr {
 
 .ow {
     background-color: var(--bg-blue);
+    box-shadow: 2px 2px 2px #EFF6FF, -2px -2px 2px #EFF6FF;
 }
 
 .ow2 {
     background-color: var(--bg-blue);
     margin-bottom: 1.5%;
+    box-shadow: 2px 2px 2px #EFF6FF, -2px -2px 2px #EFF6FF;
 }
 
 .footer {
